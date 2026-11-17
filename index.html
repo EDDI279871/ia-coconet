@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reconocimiento de objetos con IA</title>
+
+    <link rel="stylesheet" href="a.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Reconocimiento de objetos</h1>
+
+    <p id="estado">Cargando inteligencia artificial...</p>
+
+    <button onclick="activarCamara()">Activar cámara</button>
+
+    <button onclick="tomarFoto()">Tomar fotografía</button>
+
+    <h2>Imagen analizada</h2>
+
+    <div id="lienzo"></div>
+
+    <h2>Objetos identificados</h2>
+
+    <div id="resultado">Esperando...</div>
+
+    <script src="a.js"></script>
+
+</body>
+</html>
+
